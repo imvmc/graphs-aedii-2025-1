@@ -2,7 +2,7 @@ package model;
 
 import java.util.Collection;
 
-public class Edge implements IEdge {
+class Edge implements IEdge {
   private Node from;
   private Node to;
   private String idLogradouro;
