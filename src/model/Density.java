@@ -1,10 +1,11 @@
 package model;
 
-import java.util.Collection;
+import model.enums.Turn;
 
-class Density {
+public class
+Density {
   private Dia dia;
-    private Turno turno;
+    private Turn turno;
     private int peopleAmount;
 
     public Density(Dia dia, Turno turno, int peopleAmount) {
