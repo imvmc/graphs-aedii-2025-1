@@ -3,8 +3,8 @@ package model;
 import java.util.Collection;
 
 class Graph implements IGraph {
-  private String nomeCidade;
-  private Dia dia;
+  private String cityName;
+  private Day day;
   private Density density;
   private Map<Node, List<Edge>> adjacencias = new HashMap<>();
 
