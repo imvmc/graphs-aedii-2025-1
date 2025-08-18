@@ -4,22 +4,37 @@ import com.aedii.asclepius.models.Coordinate;
 import com.aedii.asclepius.models.Edge;
 import com.aedii.asclepius.service.GraphService;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
 
 @RestController
-@AllArgsConstructor
-@RequestMapping("/graph")
+@RequestMapping("/api/graph")
 public class GraphController {
 
-    private final GraphService graphService;
+    @Autowired
+    private GraphService graphService;
 
+    @GetMapping
+    public String getGraphForCity(String city) {
 
+        String url = "https://api-mapas.com/cities/" + city;
+
+        try {
+            String json = restTemplate.getForObject(url, String.class);
+            return json;
+        } catch (Exception e) {
+            // loga o erro
+            System.err.println("Erro ao acessar API externa: " + e.getMessage());
+            // retorna mensagem amigável ou JSON de erro
+            return "{\"error\": \"Não foi possível acessar a API externa.\"}";
+        }
+    }
+
+/*
     //exemplo do chatgpt de fluxo, analizar e testar
     @PostMapping("/path")
     public List<Edge> getPath(@RequestBody Map<String, Object> body) {
@@ -35,5 +50,5 @@ public class GraphController {
 
 
         return graphService.searchPath(from, to); // já retorna List<Edge>
-    }
+    }*/
 }

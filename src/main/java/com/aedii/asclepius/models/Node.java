@@ -13,7 +13,7 @@ class Node{
     private String id;
     private Coordinate coordinate;
 
-    @Override
+
     public double distance(Node b) {
         //logica
         return 0;
