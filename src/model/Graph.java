@@ -37,5 +37,5 @@ class Graph implements IGraph {
 
   public List<Edge> getAdjacenciasSimples(Node n) {
     return adjacencias.getOrDefault(n, new ArrayList<>());
-}
+  }
 }
