@@ -1,0 +1,28 @@
+{
+    "activeFile": "new.tsx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Fortuna.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 1
+        },
+        "new.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "openFiles": [
+        "new.tsx"
+    ],
+    "recentFiles": [
+        "new.tsx",
+        "Fortuna.tsx",
+        "2.tsx"
+    ]
+}

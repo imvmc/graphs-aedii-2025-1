@@ -7,6 +7,7 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 import java.util.Map;
@@ -17,21 +18,26 @@ public class GraphController {
 
     @Autowired
     private GraphService graphService;
+    @Autowired
+    private RestTemplate restTemplate;
 
-    @GetMapping
-    public String getGraphForCity(String city) {
+    @GetMapping("/{city}")
+    public String getGraphForCity(@PathVariable String city) {
+        String result;
 
-        String url = "https://api-mapas.com/cities/" + city;
+        String url = "https://overpass-api.de/api/interpreter?data="
+                + "[out:json];"
+                + "area[\"name\"=\"" + city + "\"][\"boundary\"=\"administrative\"]->.a;"
+                + "way(area.a)[\"highway\"];"
+                + "out geom;";
 
         try {
-            String json = restTemplate.getForObject(url, String.class);
-            return json;
+            result = restTemplate.getForObject(url, String.class);
         } catch (Exception e) {
-            // loga o erro
-            System.err.println("Erro ao acessar API externa: " + e.getMessage());
-            // retorna mensagem amigável ou JSON de erro
-            return "{\"error\": \"Não foi possível acessar a API externa.\"}";
+            result = "{\"error\":\"Falha ao acessar API\"}";
         }
+
+        return result;
     }
 
 /*
