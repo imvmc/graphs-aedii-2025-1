@@ -1,6 +1,6 @@
 package com.aedii.asclepius.models;
 
-import com.aedii.asclepius.models.enums.AreaType;
+import com.aedii.asclepius.models.enums.Density;
 import lombok.Getter;
 
 
@@ -8,22 +8,20 @@ import lombok.Getter;
 public class Edge {
   private final Node from;
   private final Node to;
-  private final String id;//logradouro
   private final double timeInSeconds;
-  private final double distanceInMeters;
-  private final AreaType areaType;
+  private final Density density;
+  private final boolean against;
 
-    public Edge(Node from, Node to, String id, AreaType areaType) {
+    public Edge(Node from, Node to, boolean against) {
         this.from = from;
         this.to = to;
-        this.id = id;
-        this.distanceInMeters = from.distance(to);
+        this.against = against;
         this.timeInSeconds = calculateWheight();
-        this.areaType = areaType;
+        this.density = Density.randomDensity();
     }
 
      private double calculateWheight() { //com base nos atributos, pensar depois
-     // esse sera o peso com base nos outros fatores ,tempo
+     // esse sera o peso com base na distancia de pixels e peso da densidade de trafego
         return 0.0;
     }
 

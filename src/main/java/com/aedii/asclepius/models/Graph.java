@@ -1,41 +1,32 @@
 package com.aedii.asclepius.models;
 
-import com.aedii.asclepius.models.enums.Day;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//melhorar quabndo o restante estiver pronto
 public class Graph{
-  private String city;
-  private Day day;
-  private Density density;
-  private Map<Node, List<Edge>> adj;
+      private String city;
+      private List<Node> nodes;
+      private Map<Node, List<Edge>> adjacent;
 
-/*
-talvez nao seja preciso (muito provavelmente)
-    @Override
-    public List<Node> widthFirstSearch()
-
+    public Graph(String city) {
+        this.city = city;
+        this.adjacent = new HashMap<>();
     }
-
-    @Override
-    public List<Node> breadthFirstSearch()
-    }
-*/
 
     public void addNode(Node node) {
     }
 
-    public void addEdge(Edge e) {
+    public void addEdge(Node a, Node b, boolean against) {
+        //adicionar adjacencia
     }
 
     public Collection<Node> searchPath(Node origin) {//deve usar djikstra
         return List.of();//implementar
     }
 
-    public Collection<Edge> pathInEdges(Collection<Node> path) {
-        return List.of();
-    }
 
 
 }

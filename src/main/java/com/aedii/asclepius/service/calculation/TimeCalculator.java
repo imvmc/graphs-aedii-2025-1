@@ -1,4 +1,4 @@
-package calculation;
+package com.aedii.asclepius.service.calculation;
 
 public class TimeCalculator {
   public static double calculate(Edge e, double kmSpeed) {

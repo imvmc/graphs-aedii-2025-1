@@ -1,4 +1,4 @@
-package calculation;
+package com.aedii.asclepius.service.calculation;
 
 public class PathCalculator {
   public static List<Edge> fasterPath(Graph graph, Node origin) {

@@ -1,4 +1,4 @@
-package calculation;
+package com.aedii.asclepius.service.calculation;
 
 public class Haversine {
   private static final double EARTH_RADIUS = 6371.0;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="3" nextobjectid="314">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="1" nextlayerid="4" nextobjectid="314">
  <tileset firstgid="1" source="new.tsx"/>
  <layer id="1" name="Camada de Blocos 1" width="30" height="20">
   <data encoding="csv">
@@ -7591,4 +7591,5 @@
    <point/>
   </object>
  </objectgroup>
+ <group id="3" name="Grupo de Camadas 1"/>
 </map>
