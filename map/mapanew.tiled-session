@@ -3,8 +3,9 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "points-and-rectangles.tmj",
+    "activeFile": "jsons/mapa-c-background.tmj",
     "expandedProjectPaths": [
+        "jsons",
         "."
     ],
     "fileStates": {
@@ -20,11 +21,30 @@
             }
         },
         "edicao.tmx": {
-            "scale": 0.25,
-            "selectedLayer": 1,
+            "scale": 0.125,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 126,
-                "y": 80
+                "x": -128,
+                "y": 124
+            }
+        },
+        "jsons/mapa-c-background.tmj": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 664,
+                "y": 244
+            }
+        },
+        "jsons/new.tsx": {
+            "scaleInDock": 1
+        },
+        "jsons/points-and-rectangles.tmj": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 8,
+                "y": -562
             }
         },
         "mapa-c-background.tmj": {
@@ -45,7 +65,7 @@
         },
         "new.tsx": {
             "scaleInDock": 0.125,
-            "scaleInEditor": 1
+            "scaleInEditor": 0.125
         },
         "points-and-rectangles.tmj": {
             "scale": 0.125,
@@ -57,6 +77,7 @@
         }
     },
     "last.exportedFilePath": "C:/Users/cauas/Documents/programming/academics/codes-2025.1/aed2/Asclepius/map",
+    "last.externalTilesetPath": "C:/Users/cauas/Documents/programming/academics/codes-2025.1/aed2/Asclepius/map",
     "map.fixedSize": false,
     "map.lastUsedExportFilter": "Arquivos de mapa JSON (*.tmj *.json)",
     "map.lastUsedFormat": "json",
@@ -65,14 +86,16 @@
     "openFiles": [
         "edicao.tmx",
         "new.tsx",
-        "mapa-c-background.tmj",
-        "points-and-rectangles.tmj"
+        "jsons/points-and-rectangles.tmj",
+        "jsons/mapa-c-background.tmj"
     ],
     "project": "mapanew.tiled-project",
     "property.type": "string",
     "recentFiles": [
         "edicao.tmx",
         "new.tsx",
+        "jsons/points-and-rectangles.tmj",
+        "jsons/mapa-c-background.tmj",
         "mapa-c-background.tmj",
         "points-and-rectangles.tmj",
         "MAP-JSON.tmj",

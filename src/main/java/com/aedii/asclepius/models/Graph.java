@@ -1,27 +1,17 @@
 package com.aedii.asclepius.models;
 
-import com.aedii.asclepius.models.enums.Day;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
+//melhorar quabndo o restante estiver pronto
 public class Graph{
-  private String city;
-  private Day day;
-  private Density density;
-  private Map<Node, List<Edge>> adj;
+      private String city;
+      private Map<Node, List<Edge>> adj;
 
-/*
-talvez nao seja preciso (muito provavelmente)
-    @Override
-    public List<Node> widthFirstSearch()
-
+    public Graph(String city) {
+        this.city = city;
     }
-
-    @Override
-    public List<Node> breadthFirstSearch()
-    }
-*/
 
     public void addNode(Node node) {
     }
@@ -33,9 +23,6 @@ talvez nao seja preciso (muito provavelmente)
         return List.of();//implementar
     }
 
-    public Collection<Edge> pathInEdges(Collection<Node> path) {
-        return List.of();
-    }
 
 
 }

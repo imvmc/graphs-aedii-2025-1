@@ -1,5 +1,6 @@
 package com.aedii.asclepius.models;
 
+import com.aedii.asclepius.models.enums.Direction;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,13 +10,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-class Node{
+public class Node{
     private String id;
-    private Coordinate coordinate;
-
+    private double x, y;
+    private Direction direction;
 
     public double distance(Node b) {
-        //logica
-        return 0;
+
+        //calculo
+        return 0.0;
     }
 }

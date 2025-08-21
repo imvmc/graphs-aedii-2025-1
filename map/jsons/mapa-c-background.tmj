@@ -13014,7 +13014,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"new.tsx"
+         "source":"..\/new.tsx"
         }],
  "tilewidth":16,
  "type":"map",
