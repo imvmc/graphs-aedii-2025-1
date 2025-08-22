@@ -22,7 +22,9 @@ public class Edge {
 
      private double calculateWheight() { //com base nos atributos, pensar depois
      // esse sera o peso com base na distancia de pixels e peso da densidade de trafego
-        return 0.0;
+       double distance = from.distanceTo(to);
+       this.weight = WeightCalculator.calculate(distance, density);
+       return 0.0;
     }
 
 }
