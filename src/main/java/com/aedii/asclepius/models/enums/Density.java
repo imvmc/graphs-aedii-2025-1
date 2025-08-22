@@ -5,8 +5,8 @@ import java.util.Random;
 
 public enum Density {
     LOW(1),
-    MEDIUM(3),
-    HIGH(5);
+    MEDIUM(1.2),
+    HIGH(1.4);
 
     private final int weight;
 

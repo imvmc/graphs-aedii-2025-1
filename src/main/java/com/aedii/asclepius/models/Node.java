@@ -23,5 +23,9 @@ public class Node {
         this.direction = Direction.fromString(direction.toUpperCase());
     }
 
-
+    public double distanceTo(Node other) {
+        double dx = this.x - other.x;
+        double dy = this.y - other.y;
+        return Math.sqrt(dx * dx + dy * dy);
+    }
 }
