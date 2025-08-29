@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45e43acd-9569-434a-96af-57511a41f128" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrama-projeto-grafos-2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagrama-projeto-grafos.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs-aedii-2025.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/edicao.tmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/jsons/mapa-c-background.tmj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/jsons/new.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/jsons/points-and-rectangles.tmj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/mapa.tiled-session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/mapanew.tiled-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/mapanew.tiled-session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/new.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/sem título.tiled-project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/sem título.tiled-session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/AsclepiusApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/configuration/GraphConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/controllers/GraphController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/Edge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/enums/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/enums/Density.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/models/enums/Direction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/GraphParsingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/GraphService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/Teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/calculation/Haversine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/calculation/PathCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/calculation/TimeCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aedii/asclepius/service/calculation/WeightCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aedii/asclepius/AsclepiusApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cauaofduty&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cauaofduty/graphs-aedii-2025-1&quot;,
+    &quot;accountId&quot;: &quot;2e30c5f5-24cc-43de-9cd7-160953d89e6d&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="31QzQHRIuVEerjITog2E61lr5oK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.AsclepiusApplication (1).executor": "Run",
+    "Spring Boot.AsclepiusApplication.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cauas/Documents/programming/academics/codes-2025.1/aed2/Asclepius/src/main/java/com/aedii/asclepius",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cauas\Documents\programming\academics\codes-2025.1\aed2\Asclepius\src\main\java\com\aedii\asclepius" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cauas\Documents\programming\academics\codes-2025.1\aed2\Asclepius\src\main\java\com\aedii\asclepius\service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AsclepiusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Asclepius" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aedii.asclepius.AsclepiusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Physical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45e43acd-9569-434a-96af-57511a41f128" name="Changes" comment="" />
+      <created>1755471070669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755471070669</updated>
+      <workItem from="1755471070869" duration="12641000" />
+      <workItem from="1755492531775" duration="29000" />
+      <workItem from="1755537341332" duration="3846000" />
+      <workItem from="1755541922132" duration="3367000" />
+      <workItem from="1755605116477" duration="2284000" />
+      <workItem from="1755722032043" duration="1083000" />
+      <workItem from="1755799307491" duration="10929000" />
+      <workItem from="1755814984147" duration="19539000" />
+      <workItem from="1755836264638" duration="121000" />
+      <workItem from="1755889436320" duration="1865000" />
+      <workItem from="1756173987384" duration="599000" />
+      <workItem from="1756388507829" duration="2015000" />
+      <workItem from="1756391129222" duration="460000" />
+      <workItem from="1756391622346" duration="877000" />
+      <workItem from="1756393029420" duration="681000" />
+      <workItem from="1756394144396" duration="93000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
