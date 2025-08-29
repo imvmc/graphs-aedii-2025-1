@@ -19,10 +19,25 @@ public class Edge {
         this.timeInSeconds = calculateWheight();
         this.density = Density.randomDensity();
     }
-
-     private double calculateWheight() { //com base nos atributos, pensar depois
+   
+  private double calculateWheight() { //com base nos atributos, pensar depois
      // esse sera o peso com base na distancia de pixels e peso da densidade de trafego
-        return 0.0;
+    double distance = from.distanceTo(to);
+    double weight = WeightCalculator.calculate(distance, density);
+    if (against) {
+      weight *= 0.8;
+    }
+    return weight;
+  }
+
+  public JSONObject toJson() {
+    JSONObject json = new JSONObject();
+    json.put("from", from.getId());
+    json.put("to", to.getId());
+    json.put("density", density.toString());
+    json.put("against", against);
+    json.put("timeInSeconds", timeInSeconds);
+    return json;
     }
 
 }
