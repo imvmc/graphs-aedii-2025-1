@@ -16,14 +16,29 @@ public class Edge {
         this.from = from;
         this.to = to;
         this.against = against;
-        this.timeInSeconds = calculateWheight();
+        this.timeInSeconds = calculateWeight();
         this.density = Density.randomDensity();
     }
    
-  private double calculateWheight() { //com base nos atributos, pensar depois
-     // esse sera o peso com base na distancia de pixels e peso da densidade de trafego
+  private double calculateWeight() { 
     double distance = from.distanceTo(to);
-    double weight = WeightCalculator.calculate(distance, density);
+    double weight = distance;
+
+    if (density != null) {
+      switch (density) {
+        case LOW:
+          weight *= 1.0;
+          break;
+        case MEDIUM:
+          weight *= 1.5;
+          break;
+        case HIGH:
+          weight *= 2.0;
+          break;
+        default:
+          weight *= 1.0; 
+      }
+    }
     if (against) {
       weight *= 0.8;
     }
